@@ -141,7 +141,7 @@ Route::set('wiki-page', 'wiki/<page>')
 	->defaults(array(
 		'controller' =>	'wiki',
 		'action' => 'read_page'
-	));
+	) );
 	
 // wiki save
 Route::set('wiki-save', 'wiki/<page>/save')
